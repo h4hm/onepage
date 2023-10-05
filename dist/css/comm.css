@@ -1,0 +1,142 @@
+@charset "UTF-8";
+:root,
+[data-bs-theme=light] {
+  --bs-primary: rgb(126, 57, 255);
+  --bs-primary-rgb: 126, 57, 255;
+}
+
+:root {
+  --sm: 768px;
+  --md: 992px;
+  --lg: 1200px;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
+}
+
+.container-fluid {
+  min-width: 1000px;
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.navbar-brand {
+  display: block;
+  color: #fff;
+}
+
+.nav-item a {
+  color: #fff;
+}
+
+#header {
+  height: 58px;
+}
+
+.sec-g {
+  padding: 350px 0;
+}
+
+#jumbotron {
+  position: relative;
+  height: 600px;
+}
+#jumbotron .container {
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+}
+#jumbotron .col-left {
+  width: 50%;
+  margin-top: 300px;
+}
+#jumbotron .col-right {
+  margin-top: 100px;
+  width: 530px;
+  height: 500px;
+  background: url(/images/main-png.png) 0 0/cover no-repeat;
+}
+
+.link-area {
+  display: flex;
+}
+.link-area .link-left {
+  width: 30%;
+}
+.link-area .link-left img {
+  width: 100px;
+  border-radius: 15px;
+}
+.link-area .link-right {
+  width: 60%;
+}
+.link-area .link-right a {
+  display: block;
+  width: 150px;
+  height: 50px;
+}
+.link-area .link-right img {
+  width: 100%;
+  height: 100%;
+}
+
+.item-wrap {
+  background: #d3d3d3;
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+#about {
+  padding-top: 200px;
+}
+
+#portfolio .list {
+  display: flex;
+  margin-top: 60px;
+}
+#portfolio .item-wrap {
+  width: 50%;
+  height: 300px;
+}
+#portfolio .txt-wrap {
+  width: 50%;
+  margin-left: 20px;
+}
+
+#contact {
+  padding: 150px 0;
+}
+
+.link-btn {
+  border-color: rgb(126, 57, 255);
+  color: rgb(126, 57, 255);
+  border-radius: 15px;
+}
+.link-btn:hover {
+  background-color: rgb(126, 57, 255);
+  color: #fff;
+}
+
+.link-btn.type2 {
+  padding: 15px 130px;
+}
+.link-btn.type2:first-child {
+  margin-right: 20px;
+}
+
+#footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #242424;
+  color: #777777;
+}
+
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-collapse {
+    justify-content: flex-end;
+  }
+}/*# sourceMappingURL=comm.css.map */
