@@ -21,6 +21,9 @@ body {
   font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", "맑은 고딕",
     sans-serif;
 }
+.wrap {
+  // overflow: hidden;
+}
 .container-fluid {
   min-width: 1000px;
   padding-right: 90px;
@@ -93,6 +96,30 @@ body {
 
 #about {
   padding-top: 200px;
+}
+#service {
+  .horizontal {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 400%;
+  }
+  .col {
+    padding-right: 50px;
+  }
+}
+.zoom-circle {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 100vw;
+  background-color: black;
+  mix-blend-mode: difference;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-self: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #portfolio {
