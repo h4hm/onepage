@@ -46,3 +46,11 @@ gsap.to(sections, {
     anticipatePin: 1,
   },
 });
+
+// var tl = gsap.timeline({ scrollTrigger: {
+//   trigger: '.wrap',
+//   scrub:.3,
+//   start:'top top',
+//   pin:true,
+// }})
+// .to('.mouth', { scale: 5, transformOrigin:'bottom center' })
