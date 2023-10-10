@@ -94,7 +94,7 @@ body {
   padding-top: 200px;
 }
 
-#service .horizontal {
+#service .horizon {
   display: flex;
   flex-wrap: nowrap;
   width: 400%;
